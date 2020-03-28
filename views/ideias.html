@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap" rel="stylesheet">
+</head>
+{% block title %}
+    <title>novas ideias</title>
+{% endblock title %}
+
+{% set bodyId = "page-ideas" %}
+
+{% block content %}
+        <header>
+                <a href="/"></a>
+            <img src="/logo.png"  alt="logo">
+            <nav>
+                <li><a href="/">inicio</a></li>
+                <li><a class="button" href="#" onclick="onOff()">Nova Ideias</a></li>
+            </nav>
+        </header>
+        <section id="title">
+            <p>em exibição</p>
+            <h1>ideias</h1>
+        </section>
+        <main>
+            <section id="ideas">
+                {% include "all_ideas.html" %}
+            </section>
+
+        </main>
+        <footer>
+            com ♥️ <a href="http://rocketseat.com.br" target="blanck"></a> Rocketseat
+        </footer>
+    </div>
+    {% include "modal.html" %}
+    <script src="script.js"></script>
+</body>
+
+</html>
+{% endblock %}
