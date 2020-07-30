@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/pedro-henrique1/maratona-rocket)
 ![GitHub top language](https://img.shields.io/github/languages/top/pedro-henrique1/maratona-rocket)
 
-<p>A aplicação construida para treinar minha habilidade com graficos.
+<p>A aplicação construida para treinar minha habilidade com js.
 <br>
 <br>
 
